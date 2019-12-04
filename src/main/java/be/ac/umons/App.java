@@ -19,7 +19,7 @@ import java.util.Map;
  */
 public class App
 {
-
+    public static Map<String, Ingredient> ingredients = new HashMap<>();
     public static void main( String[] args )
     {
         Map<String, Ingredient> ingredients = new HashMap<>();

@@ -5,7 +5,7 @@ public class Pizza
 {
     private String name;
     private BigDecimal price=BigDecimal.valueOf(0);
-    private ArrayList<Ingredient>listIngredient;
+    protected ArrayList<Ingredient>listIngredient;
     Pizza(String name)
     {
 

@@ -1,14 +1,13 @@
 package be.ac.umons;
 
-public class Fruttidimare extends Pizza
+public class Margherita extends Pizza
 {
 
-    Fruttidimare()
+    Margherita()
     {
-        super("Fruttidimare");
+        super("Margherita");
         addIngredient(new Dough());
         addIngredient(new TomatoSauce());
         addIngredient(new Cheese());
-        addIngredient(new Seafood());
     }
 }

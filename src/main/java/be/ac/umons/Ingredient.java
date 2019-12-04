@@ -9,10 +9,16 @@ public class Ingredient implements PizzaComponent {
     {
 
     }
+    public Ingredient(String name,BigDecimal price) // on avait laissé cette fct vide
+    {
+        this.name = name;
+        this.price = price;
+    }
+
 
     public String toString()
     {
-        return (this.name+this.price);
+        return (String.valueOf(this.price)+name);
     }
     public String getName()
     {
